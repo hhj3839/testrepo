@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="hhj3839의 프로젝트와 관심사를 소개하는 개인 홈페이지입니다."
+    >
+    <title>hhj3839 | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="홈으로 이동">hhj3839</a>
+      <nav class="nav" aria-label="주요 메뉴">
+        <a href="#about">소개</a>
+        <a href="#projects">프로젝트</a>
+        <a href="#contact">연락</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="hero__content">
+          <p class="eyebrow">Personal Website</p>
+          <h1>안녕하세요, 성장하는 개발자 hhj3839입니다.</h1>
+          <p class="hero__lead">
+            문제를 구조화하고, 작은 개선을 꾸준히 쌓아 실용적인 결과물로
+            만드는 일을 좋아합니다.
+          </p>
+          <div class="hero__actions">
+            <a class="button button--primary" href="#projects">프로젝트 보기</a>
+            <a class="button button--ghost" href="https://github.com/hhj3839" target="_blank" rel="noreferrer">
+              GitHub 방문
+            </a>
+          </div>
+        </div>
+        <div class="hero__visual" aria-label="개발 작업 공간 일러스트">
+          <img src="assets/hero-workspace.png" alt="노트북과 노트가 놓인 밝은 개발 작업 공간 일러스트">
+          <div class="hero__panel">
+            <span class="panel__label">Focus</span>
+            <strong>Web · Automation · Problem Solving</strong>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="section__heading">
+          <p class="eyebrow">About</p>
+          <h2>저를 소개합니다</h2>
+        </div>
+        <div class="about-grid">
+          <article>
+            <h3>일하는 방식</h3>
+            <p>
+              요구사항을 먼저 정리하고, 핵심 흐름을 빠르게 구현한 뒤 개선점을
+              찾아 다듬는 방식을 선호합니다.
+            </p>
+          </article>
+          <article>
+            <h3>관심 분야</h3>
+            <p>
+              웹 서비스, 자동화, 데이터 기반 문제 해결에 관심이 있습니다.
+              새 기술을 익히는 과정도 즐깁니다.
+            </p>
+          </article>
+          <article>
+            <h3>현재 목표</h3>
+            <p>
+              작은 프로젝트라도 끝까지 완성하고 공개하면서, 배운 내용을
+              다음 작업에 적용하는 습관을 만들고 있습니다.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="projects" class="section section--muted">
+        <div class="section__heading">
+          <p class="eyebrow">Projects</p>
+          <h2>대표 작업</h2>
+        </div>
+        <div class="project-list">
+          <article class="project-card">
+            <div>
+              <h3>개인 홈페이지</h3>
+              <p>
+                GitHub Pages로 배포할 수 있는 정적 포트폴리오 사이트입니다.
+                소개, 프로젝트, 연락 섹션으로 구성했습니다.
+              </p>
+            </div>
+            <span>HTML · CSS · JS</span>
+          </article>
+          <article class="project-card">
+            <div>
+              <h3>학습 기록</h3>
+              <p>
+                공부한 내용을 정리하고 반복적으로 참고할 수 있도록 기록하는
+                공간을 준비하고 있습니다.
+              </p>
+            </div>
+            <span>Docs · Notes</span>
+          </article>
+          <article class="project-card">
+            <div>
+              <h3>자동화 실험</h3>
+              <p>
+                반복 작업을 줄이고 생산성을 높이기 위한 작은 스크립트와 도구를
+                실험합니다.
+              </p>
+            </div>
+            <span>Automation</span>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>함께 이야기해요</h2>
+          <p>
+            프로젝트, 협업, 학습 기록은 GitHub를 통해 확인할 수 있습니다.
+          </p>
+        </div>
+        <a class="button button--primary" href="https://github.com/hhj3839/testrepo" target="_blank" rel="noreferrer">
+          저장소 보기
+        </a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>&copy; <span id="year"></span> hhj3839</span>
+      <a href="#home">맨 위로</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
